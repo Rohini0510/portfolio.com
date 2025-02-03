@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+  <script src="portfolio.js" defer></script>
+</head>
+<body>
+  <!-- Home Section -->
+  <section id="home" class="hero">
+    <h1>Hi, I'm <span class="name">Rohini Dambhare</span></h1>
+    <p>Computer Engineering Student | Front-End Developer</p>
+    <div class="scroll-down">Scroll Down</div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi! I'm Rohini Dambhare, a second-year Computer Engineering student passionate about coding and problem-solving. I have experience in C, C++, and Java, along with a strong foundation in web development.
+
+        I enjoy building efficient and scalable solutions. Always eager to learn and experiment, I love taking on new challenges and refining my skills.
+        
+        Currently, I'm exploring advanced programming concepts, web frameworks, and software development best practices to expand my expertise.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2 style="color: #ddd; font-style: italic;">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill">C</div>
+      <div class="skill">C++</div>
+      <div class="skill">Java</div>
+      <div class="skill">HTML/CSS</div>
+      <div class="skill">JavaScript</div>
+    </div>
+    
+        <div class="pie-container">
+            <div class="pie-chart">80%<div class="pie-label">HTML and CSS</div></div>
+            <div class="pie-chart" style="background: conic-gradient(#fae739 0% 60%, #ddd 60% 100%)">60%<div class="pie-label">JavaScript</div></div>
+            <div class="pie-chart" style="background: conic-gradient(#8bc6f7 0% 40%, #ddd 40% 100%)">40%<div class="pie-label">Java</div></div>
+            <div class="pie-chart" style="background: conic-gradient(#fca4a4 0% 90%, #ddd 90% 100%)">90%<div class="pie-label">C and Cpp</div></div>
+        </div>
+    
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Project 1</h3>
+      <p>Upcoming...</p>
+      <a href="#">View Project</a>
+    </div>
+    <!-- Add more project cards -->
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact-container">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p class="message" id="successMessage">Message Sent Successfully!</p>
+
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/rohini-dambhare-9bb65a296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+            <a href="https://github.com/account" target="_blank">GitHub</a>
+            <a href="rohinidambhare508@gmail.com">Email</a>
+        </div>
+    </div>
+  </section>
+</body>
+</html>
